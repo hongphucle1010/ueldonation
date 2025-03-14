@@ -7,3 +7,6 @@ const clientId = import.meta.env.VITE_TEMPLATE_CLIENT_ID;
 export const client = createThirdwebClient({
   clientId: clientId,
 });
+
+export const contractAddress = import.meta.env.VITE_CONTRACT_ADDRESS;
+
