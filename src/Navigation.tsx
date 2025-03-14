@@ -5,7 +5,7 @@ const Navigation: React.FC = () => {
   return (
     <div className="flex justify-between items-center w-full p-4 bg-green-400">
       <div>
-        <span>Donation </span>
+        <span>UEL Donation</span>
       </div>
       <MyConnectButton />
     </div>
